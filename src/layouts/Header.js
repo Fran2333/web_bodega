@@ -40,22 +40,6 @@ const Header = ({ header }) => {
   switch (header) {
     case 1:
       return <Header1 />;
-    case 2:
-      return <Header2 />;
-    case 3:
-      return (
-        <Header3
-          overlayPanel={overlayPanel}
-          togglePanel={() => togglePanel()}
-        />
-      );
-    case 4:
-      return (
-        <Header4
-          overlayPanel={overlayPanel}
-          togglePanel={() => togglePanel()}
-        />
-      );
     default:
       return <DefaultHeader />;
   }
