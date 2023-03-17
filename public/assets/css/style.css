@@ -414,6 +414,16 @@ button {
   border: none;
 }
 
+.icon-services{
+  width: 50px;
+  height: 50px;
+}
+
+.images-bodegas{
+ 
+  height: 250px;
+}
+
 .main-btn {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;

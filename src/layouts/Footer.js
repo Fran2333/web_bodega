@@ -34,7 +34,7 @@ const DefaultFooter = () => (
               </div>
               <div className="text">
                 <h5>ubicacion</h5>
-                <h6></h6>
+                <h6>Prolongacion alameda Juan Pablo II</h6>
               </div>
             </div>
           </div>
@@ -79,20 +79,18 @@ const FooterMenu = () => (
         <h4 className="widget-title">Nosotros</h4>
         <div className="footer-about-content">
           <p>
-            Sit amet consectetur adipiscing elit sed do eiusmo tempor incidunt
-            ut labore et dolore magna aliquae. Quis ipsum suspendisse ultrices
-            gravida commodo viverra
+          Con mas de 30 años en experiencia de almacenaje en Complejo industial bodegas San Jorge decidimos crear Bodeguitas San Jorge; un lugar que permite almacenar desde aritulos de hogar hasta productos de tu empresa.
           </p>
           <div className="social-box">
             <h4 className="mb-15">Siguenos</h4>
             <ul className="social-link">
               <li>
-                <a href="#">
+                <a href="https://www.facebook.com/profile.php?id=100089067000643">
                   <i className="fab fa-facebook-f" />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.instagram.com/bodeguitasanjorge/">
                   <i className="fab fa-instagram" />
                 </a>
               </li>
@@ -103,26 +101,23 @@ const FooterMenu = () => (
     </div>
     <div className="col-lg-4 col-lg-4 col-md-7 col-sm-12">
       <div className="footer-widget footer-nav-widget mb-40 wow fadeInUp">
-        <h4 className="widget-title">Services</h4>
+        <h4 className="widget-title">Servicios</h4>
         <div className="footer-widget-nav">
           <ul>
             <li>
-              <a href="">texts</a>
+              <a href="#servicios">Vigilancia las 24 horas</a>
             </li>
             <li>
-              <a href=""> Texto</a>
+              <a href="#servicios"> Circuito de camaras </a>
             </li>
             <li>
-              <a href="">Texto</a>
+              <a href="#servicios">Sistema de alarma por bodegas</a>
             </li>
             <li>
-              <a href="">Texto</a>
+              <a href="#servicios">Fumigacion mensual </a>
             </li>
             <li>
-              <a href="">MTexto</a>
-            </li>
-            <li>
-              <a href="">Texto</a>
+              <a href="#servicios">Seguros de daños </a>
             </li>
           </ul>
         </div>

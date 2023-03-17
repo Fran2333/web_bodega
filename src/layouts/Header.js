@@ -63,16 +63,16 @@ const Header1 = () => (
             <div className="top-bar-right">
               <span className="text">
                 <i className="far fa-clock" />
-                horarios : lunes a viernes, 08:00 am - 05:00pm
+                horarios : lunes a viernes, 08:00 am - 05:00pm, Sabado de 8 am a 12 pm 
               </span>
               <ul className="social-link">
                 <li>
-                  <a href="#">
+                  <a href="https://www.facebook.com/profile.php?id=100089067000643">
                     <i className="fab fa-facebook-f" />
                   </a>
                 </li> 
                 <li>
-                  <a href="#">
+                  <a href="https://www.instagram.com/bodeguitasanjorge/">
                     <i className="fab fa-instagram" />
                   </a>
                 </li>   
@@ -119,7 +119,7 @@ const Header1 = () => (
                 </div>
               </div>
               <div className="button text-md-right text-sm-center">
-                <Link href="/contact">
+                <Link href="#contactenos">
                   <a className="main-btn btn-yellow">Contáctanos</a>
                 </Link>
               </div>
@@ -176,13 +176,9 @@ const DefaultHeader = () => (
           <div className="col-xl-6 col-lg-12 col-md-12 col-6">
             <div className="top-bar-left d-flex align-items-center">
               <span className="text">
-                Welcome to Agriculture &amp; Organic Food Template
+              Bienvenidos a  Bodeguitas San Jorge
               </span>
               <span className="lang-dropdown">
-                <select className="wide">
-                  <option value={1}>English</option>
-                  <option value={2}>French</option>
-                </select>
               </span>
             </div>
           </div>
@@ -190,27 +186,12 @@ const DefaultHeader = () => (
             <div className="top-bar-right">
               <span className="text">
                 <i className="far fa-clock" />
-                Opening Hours : Sunday- Friday, 08:00 am - 05:00pm
+                horarios : lunes a viernes, 08:00 am - 05:00pm, Sabado de 8 am a 12 pm
               </span>
               <ul className="social-link">
                 <li>
                   <a href="#">
                     <i className="fab fa-facebook-f" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-linkedin" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-youtube" />
                   </a>
                 </li>
               </ul>
@@ -253,7 +234,7 @@ const DefaultHeader = () => (
               <div className="call-button text-center">
                 <span>
                   <i className="far fa-phone" />
-                  <a href="tel:+012(345)678">+012 (345) 678</a>
+                  <a href="tel:+012(345)678">+503 7039-0934</a>
                 </span>
               </div>
               {/*=== Main Menu ===*/}
@@ -261,8 +242,8 @@ const DefaultHeader = () => (
               <MobileHeader />
               {/*=== Navbar Menu Button ===*/}
               <div className="menu-button">
-                <Link href="/contact">
-                  <a className="main-btn btn-yellow">Get a Quote</a>
+                <Link href="#contactenos">
+                  <a className="main-btn btn-yellow">contactenos</a>
                 </Link>
               </div>
             </div>
@@ -271,12 +252,12 @@ const DefaultHeader = () => (
               <div className="call-button">
                 <span>
                   <i className="far fa-phone" />
-                  <a href="tel:+012(345)678">+012 (345) 678</a>
+                  <a href="tel:+012(345)678">+503 7039-0934</a>
                 </span>
               </div>
               <div className="menu-button">
-                <Link href="/contact">
-                  <a className="main-btn btn-yellow">Get a Quote</a>
+                <Link href="#contactenos">
+                  <a className="main-btn btn-yellow">Contáctanos</a>
                 </Link>
               </div>
               <div className="bar-item">
@@ -306,13 +287,13 @@ const Menu = () => (
         </a>
       </li>
       <li>
-        <Link href="/nosostros">Nosotros</Link>
+        <Link href="#nosotros">Nosotros</Link>
       </li>
       <li className="menu-item has-children">
         <a href="#servicios">Servicios</a>
       </li>
       <li className="menu-item has-children">
-        <a href="#">Contactanos</a>
+        <a href="#contactenos">Contactanos</a>
       </li>
     </ul>
   </nav>

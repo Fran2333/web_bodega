@@ -1,15 +1,15 @@
 import Link from "next/link";
-import { Nav, Tab } from "react-bootstrap";
 import Slider from "react-slick";
-import OrgariumCounter from "../src/components/OrgariumCounter";
-import ProgressBar from "../src/components/ProgressBar";
-import ProjectOneSlider from "../src/components/sliders/ProjectOneSlider";
 import Layout from "../src/layouts/Layout";
 import {
-  heroSliderOne,
-  logoSlider,
-  testimonialSliderOne,
+  heroSliderOne
 } from "../src/sliderProps";
+
+
+
+
+
+
 const Index = () => {
   return (
     <Layout header={1}>
@@ -32,17 +32,17 @@ const Index = () => {
                       data-animation="fadeInDown"
                       data-delay=".4s"
                     >
-                      Bodeguitas San Jorge
+                     Bodeguita san jorge! 
                     </span>
                     <h1 data-animation="fadeInUp" data-delay=".5s">
-                    Bienvenido a Bodeguitas San Jorge
+                    El lugar que necesitas para organizar tus espacios!
                     </h1>
                     <div
                       className="hero-button"
                       data-animation="fadeInDown"
                       data-delay=".6s"
                     >
-                      <Link href="/about">
+                      <Link href="#nosotros">
                         <a className="main-btn btn-yellow">Nosotros</a>
                       </Link>
                     </div>
@@ -63,22 +63,22 @@ const Index = () => {
               <div className="row justify-content-center">
                 <div className="col-lg-10">
                   <div className="hero-content text-center">
-                    <span
+                  <span
                       className="tag-line"
                       data-animation="fadeInDown"
                       data-delay=".4s"
                     >
-                      Bodeguitas San Jorge
+                     Bodeguita san jorge! 
                     </span>
                     <h1 data-animation="fadeInUp" data-delay=".5s">
-                    Bienvenido a Bodeguitas San Jorge
+                    El lugar que necesitas para organizar tus espacios!
                     </h1>
                     <div
                       className="hero-button"
                       data-animation="fadeInDown"
                       data-delay=".6s"
                     >
-                      <Link href="/about">
+                      <Link href="#nosotros">
                         <a className="main-btn btn-yellow">Nosotros</a>
                       </Link>
                     </div>
@@ -99,22 +99,22 @@ const Index = () => {
               <div className="row justify-content-center">
                 <div className="col-lg-10">
                 <div className="hero-content text-center">
-                    <span
+                <span
                       className="tag-line"
                       data-animation="fadeInDown"
                       data-delay=".4s"
                     >
-                      Bodeguitas San Jorge
+                     Bodeguita san jorge! 
                     </span>
                     <h1 data-animation="fadeInUp" data-delay=".5s">
-                    Bienvenido a Bodeguitas San Jorge
+                    El lugar que necesitas para organizar tus espacios!
                     </h1>
                     <div
                       className="hero-button"
                       data-animation="fadeInDown"
                       data-delay=".6s"
                     >
-                      <Link href="/about">
+                      <Link href="#nosotros">
                         <a className="main-btn btn-yellow">Nosotros</a>
                       </Link>
                     </div>
@@ -150,14 +150,10 @@ const Index = () => {
                       data-animation="fadeInDown"
                       data-delay=".6s"
                     >
-                      <Link href="/about">
-                        <a className="main-btn btn-yellow">Learn About Us</a>
+                      <Link href="#nosotros">
+                        <a className="main-btn btn-yellow">Nosotros</a>
                       </Link>
-                      <Link href="/portfolio-grid">
-                        <a className="main-btn bordered-btn bordered-white">
-                          Latest Project
-                        </a>
-                      </Link>
+                      
                     </div>
                   </div>
                 </div>
@@ -176,13 +172,10 @@ const Index = () => {
                 <div className="features-item d-flex mb-30">
                   <div className="fill-number">01</div>
                   <div className="icon">
-                    <i className="flaticon-tractor" />
+                 <i className="iconfont icon-d-heart"></i>
                   </div>
                   <div className="text">
-                    <h5>texto muestra</h5>
-                    <p>
-                      Sit amet consectetur adipiscing elit sed eiusmod tempor
-                    </p>
+                    <h5>Contratos desde un mes </h5>
                   </div>
                 </div>
               </div>
@@ -190,27 +183,21 @@ const Index = () => {
                 <div className="features-item d-flex mb-30">
                   <div className="fill-number">02</div>
                   <div className="icon">
-                    <i className="flaticon-agriculture" />
+                    
                   </div>
                   <div className="text">
-                    <h5>texto muestra</h5>
-                    <p>
-                      Sit amet consectetur adipiscing elit sed eiusmod tempor
-                    </p>
+                    <h5>Seguro basico inlcuido</h5>
                   </div>
                 </div>
               </div>
               <div className="col-xl-4 col-md-6 col-sm-12">
                 <div className="features-item d-flex mb-30">
-                  <div className="fill-number">01</div>
+                  <div className="fill-number">03</div>
                   <div className="icon">
-                    <i className="flaticon-social-care" />
+                   
                   </div>
                   <div className="text">
-                    <h5>Lot’s Of Professional &amp; Expert Farmers</h5>
-                    <p>
-                      Sit amet consectetur adipiscing elit sed eiusmod tempor
-                    </p>
+                    <h5>Un solo pago al mes </h5>
                   </div>
                 </div>
               </div>
@@ -220,7 +207,7 @@ const Index = () => {
       </section>
       {/*====== End Features Section ======*/}
       {/*====== Start About Section ======*/}
-      <section className="about-section p-r z-1 pt-130 pb-80">
+      <section className="about-section p-r z-1 pt-130 pb-80" id="nosotros">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-xl-5 col-lg-6">
@@ -234,63 +221,10 @@ const Index = () => {
                   data-wow-delay=".3s"
                 >
                   <p>
-                    Sed ut perspiciatis omnis natus error volup accusantiue
-                    doloremque laudantium totam aperiam eaque quae abllcs
-                    veritatis quasi architecto beatae vitae.
+                  Con mas de 30 años en experiencia de almacenaje en Complejo industial bodegas San Jorge decidimos crear Bodeguitas San Jorge; un lugar que permite almacenar desde aritulos de hogar hasta productos de tu empresa. Con espacios que se adecuan a tu necesidad y presupuesto! Ubicado en la zona mas centra del pais. 
                   </p>
                 </div>
-                <Tab.Container defaultActiveKey={"mission"}>
-                  <div className="tab-content-box wow fadeInUp">
-                    <Nav as={"ul"} className="nav nav-tabs mb-20">
-                      <li className="nav-item">
-                        <Nav.Link
-                          as={"a"}
-                          className="nav-link"
-                          data-toggle="tab"
-                          eventKey="mission"
-                          href="#mission"
-                        >
-                          Our Mission
-                        </Nav.Link>
-                      </li>
-                      <li className="nav-item">
-                        <Nav.Link
-                          as={"a"}
-                          className="nav-link"
-                          data-toggle="tab"
-                          eventKey="vision"
-                          href="#vision"
-                        >
-                          Our Vision
-                        </Nav.Link>
-                      </li>
-                    </Nav>
-                    <Tab.Content className="tab-content">
-                      <Tab.Pane className="tab-pane fade" eventKey="mission">
-                        <div className="content-box-gap">
-                          <p>
-                            Natus error sit voluptatem accusantium doloremque
-                            laudatium, totam rem aperiam, eaque ipsa quae ab
-                            illo inventore veritatis et quasi architecto beatae
-                            vitae dicta sunt
-                          </p>
-                         
-                        </div>
-                      </Tab.Pane>
-                      <Tab.Pane className="tab-pane fade" eventKey="vision">
-                        <div className="content-box-gap">
-                          <p>
-                            Natus error sit voluptatem accusantium doloremque
-                            laudatium, totam rem aperiam, eaque ipsa quae ab
-                            illo inventore veritatis et quasi architecto beatae
-                            vitae dicta sunt
-                          </p>
-                         
-                        </div>
-                      </Tab.Pane>
-                    </Tab.Content>
-                  </div>
-                </Tab.Container>
+                
               </div>
             </div>
             <div className="col-xl-7 col-lg-6">
@@ -306,101 +240,55 @@ const Index = () => {
       </section>
       {/*====== End About Section ======*/}
       {/*====== Start Service Section ======*/}
-      <section className="service-one dark-black-bg pt-130 pb-125 p-r z-1">
-        <div className="container">
+      <section className="service-one dark-black-bg pt-130 pb-125 p-r z-1 ">
+        <div className="container ">
           <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-10">
               <div className="section-title section-title-white text-center mb-60 wow fadeInUp">
                 <span className="sub-title">Bodegas</span>
-                <h2>texto muestra</h2>
+                <h2>Espacios Bodegas</h2>
               </div>
             </div>
           </div>
           <div className="row">
-            <div className="col-xl-2 col-lg-4 col-md-4 col-sm-12">
+            <div className="col-xl-3 col-lg-4 col-md-4 col-sm-12">
               <div className="service-box text-center mb-70 wow fadeInUp">
-                <div className="icon">
-                  <i className="flaticon-wheat-sack" />
-                </div>
                 <div className="text">
                   <h3 className="title">
-                    <Link href="/service-details">
-                      <a>economico</a>
-                    </Link>
+                   
+                  <img src="assets/images/bodega1.webp" className="images-bodegas"  alt="Icon" />
+                  <p>Bodega de 5mts2</p>
                   </h3>
                 </div>
               </div>
             </div>
-            <div className="col-xl-2 col-lg-4 col-md-4 col-sm-12">
+            <div className="col-xl-3 col-lg-4 col-md-4 col-sm-12">
               <div className="service-box text-center mb-70 wow fadeInDown">
-                <div className="icon">
-                  <i className="flaticon-grape" />
-                </div>
+               
                 <div className="text">
                   <h3 className="title">
-                    <Link href="/service-details">
-                      <a>seguro</a>
-                    </Link>
+                  
+                  <img src="assets/images/bodega2.webp"  className="images-bodegas"  alt="Icon" />
+                  <p>bodega de 6 mts2 </p>
                   </h3>
                 </div>
               </div>
             </div>
-            <div className="col-xl-2 col-lg-4 col-md-4 col-sm-12">
+            <div className="col-xl-3 col-lg-4 col-md-4 col-sm-12">
               <div className="service-box text-center mb-70 wow fadeInUp">
-                <div className="icon">
-                  <i className="flaticon-cow" />
-                </div>
+               
                 <div className="text">
                   <h3 className="title">
-                    <Link href="/service-details">
-                      <a>cerca</a>
-                    </Link>
+                   
+                  <img src="assets/images/bodega3.webp"  className="images-bodegas" alt="Icon" />
+                    <p>bodega de 8 mts </p>
                   </h3>
                 </div>
               </div>
             </div>
-            <div className="col-xl-2 col-lg-4 col-md-4 col-sm-12">
-              <div className="service-box text-center mb-70 wow fadeInDown">
-                <div className="icon">
-                  <i className="flaticon-fish" />
-                </div>
-                <div className="text">
-                  <h3 className="title">
-                    <Link href="/service-details">
-                      <a>texto</a>
-                    </Link>
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-2 col-lg-4 col-md-4 col-sm-12">
-              <div className="service-box text-center mb-70 wow fadeInUp">
-                <div className="icon">
-                  <i className="flaticon-healthy-food" />
-                </div>
-                <div className="text">
-                  <h3 className="title">
-                    <Link href="/service-details">
-                      <a>texto</a>
-                    </Link>
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-2 col-lg-4 col-md-4 col-sm-12">
-              <div className="service-box text-center mb-70 wow fadeInDown">
-                <div className="icon">
-                  <i className="flaticon-planet-earth" />
-                </div>
-                <div className="text">
-                  <h3 className="title">
-                    <Link href="/service-details">
-                      <a>texto</a>
-                    </Link>
-                  </h3>
-                </div>
-              </div>
-            </div>
+           
+           
+           
           </div>
           <div className="row">
             <div className="col-lg-12">
@@ -422,28 +310,15 @@ const Index = () => {
         </div>
       </section>
       {/*====== End Service Section ======*/}
-      {/*====== Start Counter Section ======*/}
-      <section className="fun-fact">
-        <div className="big-text mb-105 wow fadeInUp">
-          <h2>Estadisticas</h2>
-        </div>
-        <div className="container">
-          <div className="counter-wrap-one wow fadeInDown">
-            <div className="counter-inner-box">
-              <OrgariumCounter />
-            </div>
-          </div>
-        </div>
-      </section>
-      {/*====== End Counter Section ======*/}
+      
       {/*====== Start Service Section ======*/}
-      <section className="popular-service p-r z-1 pt-130 pb-135">
+      <section className="popular-service p-r z-1 pt-130 pb-135" id="servicios">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-8 col-lg-10">
               <div className="section-title text-center mb-50 wow fadeInDown">
                 <span className="sub-title">Nuestros Servicios</span>
-                <h2>texto muestra</h2>
+                <h2>Servicios</h2>
               </div>
             </div>
           </div>
@@ -451,41 +326,41 @@ const Index = () => {
             <div className="col-lg-4">
               <div className="single-service-item mb-50 wow fadeInUp">
                 <div className="icon">
-                  <img src="assets/images/icon/icon-1.png" alt="Icon" />
+                  <img src="assets/images/icon/vigilancia.svg" className="icon-services" alt="Icon" />
                 </div>
                 <div className="text">
                   <h3>
                    
-                      <a>text</a>
+                      <a>Vigilancia las 24 horas</a>
                   
                   </h3>
-                  <p>Natus error sit volupt ateme accus antium dolores</p>
+                  
                 </div>
               </div>
               <div className="single-service-item mb-50 wow fadeInDown">
                 <div className="icon">
-                  <img src="assets/images/icon/icon-2.png" alt="Icon" />
+                  <img src="assets/images/icon/camara.svg" className="icon-services" alt="Icon" />
                 </div>
                 <div className="text">
                   <h3>
                     
-                      <a>text</a>
+                      <a>Circuito de camaras </a>
                 
                   </h3>
-                  <p>Natus error sit volupt ateme accus antium dolores</p>
+                 
                 </div>
               </div>
               <div className="single-service-item mb-50 wow fadeInUp">
                 <div className="icon">
-                  <img src="assets/images/icon/icon-3.png" alt="Icon" />
+                  <img src="assets/images/icon/alarma.svg" className="icon-services" alt="Icon" />
                 </div>
                 <div className="text">
                   <h3>
                     
-                      <a>text</a>
+                      <a>Sistema de alarma por bodegas</a>
                    
                   </h3>
-                  <p>Natus error sit volupt ateme accus antium dolores</p>
+                
                 </div>
               </div>
             </div>
@@ -500,43 +375,31 @@ const Index = () => {
             <div className="col-lg-4">
               <div className="single-service-item mb-50 card-rtl wow fadeInDown">
                 <div className="icon">
-                  <img src="assets/images/icon/icon-4.png" alt="Icon" />
+                  <img src="assets/images/icon/fumigacion.svg" className="icon-services" alt="Icon" />
                 </div>
                 <div className="text">
                   <h3>
                   
-                      <a>text</a>
+                      <a>Fumigacion mensual </a>
                    
                   </h3>
-                  <p>Natus error sit volupt ateme accus antium dolores</p>
+                  
                 </div>
               </div>
               <div className="single-service-item mb-50 card-rtl fadeInUp">
                 <div className="icon">
-                  <img src="assets/images/icon/icon-5.png" alt="Icon" />
+                  <img src="assets/images/icon/seguro.svg" className="icon-services" alt="Icon" />
                 </div>
                 <div className="text">
                   <h3>
                    
-                      <a>text</a>
+                      <a>Seguros de daños </a>
                     
                   </h3>
-                  <p>Natus error sit volupt ateme accus antium dolores</p>
+                  
                 </div>
               </div>
-              <div className="single-service-item mb-50 card-rtl wow fadeInDown">
-                <div className="icon">
-                  <img src="assets/images/icon/icon-6.png" alt="Icon" />
-                </div>
-                <div className="text">
-                  <h3>
-                    
-                      <a>Ftext</a>
-                    
-                  </h3>
-                  <p>Natus error sit volupt ateme accus antium dolores</p>
-                </div>
-              </div>
+             
             </div>
           </div>
         </div>
@@ -546,132 +409,10 @@ const Index = () => {
      
       {/*====== Start Testimonial Section ======*/}
       <section className="testimonial-one light-gray-bg p-r z-1">
-        <div className="container-fluid">
-          <div className="row justify-content-center">
-            <div className="col-xl-6 col-lg-10">
-              <div className="section-title text-center mb-60 wow fadeInUp">
-                <span className="sub-title">Clients Feedback</span>
-                <h2>texto muestra</h2>
-              </div>
-            </div>
-          </div>
-          <Slider {...testimonialSliderOne} className="testimonial-slider-one">
-            <div className="testimonial-item text-center wow fadeInDown">
-              <div className="author-thumb">
-                <img
-                  src="assets/images/testimonial/img-1.jpg"
-                  alt="author Image"
-                />
-              </div>
-              <div className="testimonial-content">
-                <p>
-                  “Sit amet consectetu escing elit sed do eiusmod tempor
-                  incididunt ut labore dolore magna aliqua. Quis ipsum
-                  suspendisse ultrices gravic darisus comoe”{" "}
-                </p>
-                <div className="quote">
-                  <i className="fas fa-quote-right" />
-                </div>
-                <div className="author-title">
-                  <h4>Michael R. Jordan</h4>
-                  <p className="position">CEO &amp; Founder</p>
-                </div>
-              </div>
-            </div>
-            <div className="testimonial-item text-center wow fadeInUp">
-              <div className="author-thumb">
-                <img
-                  src="assets/images/testimonial/img-2.jpg"
-                  alt="author Image"
-                />
-              </div>
-              <div className="testimonial-content">
-                <p>
-                  “Sit amet consectetu escing elit sed do eiusmod tempor
-                  incididunt ut labore dolore magna aliqua. Quis ipsum
-                  suspendisse ultrices gravic darisus comoe”{" "}
-                </p>
-                <div className="quote">
-                  <i className="fas fa-quote-right" />
-                </div>
-                <div className="author-title">
-                  <h4>Nathan A. Caswell</h4>
-                  <p className="position">Senior Manager</p>
-                </div>
-              </div>
-            </div>
-            <div className="testimonial-item text-center wow fadeInDown">
-              <div className="author-thumb">
-                <img
-                  src="assets/images/testimonial/img-3.jpg"
-                  alt="author Image"
-                />
-              </div>
-              <div className="testimonial-content">
-                <p>
-                  “Sit amet consectetu escing elit sed do eiusmod tempor
-                  incididunt ut labore dolore magna aliqua. Quis ipsum
-                  suspendisse ultrices gravic darisus comoe”{" "}
-                </p>
-                <div className="quote">
-                  <i className="fas fa-quote-right" />
-                </div>
-                <div className="author-title">
-                  <h4>Somalia D. Silva</h4>
-                  <p className="position">Business Manager</p>
-                </div>
-              </div>
-            </div>
-            <div className="testimonial-item text-center wow fadeInUp">
-              <div className="author-thumb">
-                <img
-                  src="assets/images/testimonial/img-4.jpg"
-                  alt="author Image"
-                />
-              </div>
-              <div className="testimonial-content">
-                <p>
-                  “Sit amet consectetu escing elit sed do eiusmod tempor
-                  incididunt ut labore dolore magna aliqua. Quis ipsum
-                  suspendisse ultrices gravic darisus comoe”{" "}
-                </p>
-                <div className="quote">
-                  <i className="fas fa-quote-right" />
-                </div>
-                <div className="author-title">
-                  <h4>Michael D. Slaughter</h4>
-                  <p className="position">Web Developer</p>
-                </div>
-              </div>
-            </div>
-            <div className="testimonial-item text-center wow fadeInDown">
-              <div className="author-thumb">
-                <img
-                  src="assets/images/testimonial/img-2.jpg"
-                  alt="author Image"
-                />
-              </div>
-              <div className="testimonial-content">
-                <p>
-                  “Sit amet consectetu escing elit sed do eiusmod tempor
-                  incididunt ut labore dolore magna aliqua. Quis ipsum
-                  suspendisse ultrices gravic darisus comoe”{" "}
-                </p>
-                <div className="quote">
-                  <i className="fas fa-quote-right" />
-                </div>
-                <div className="author-title">
-                  <h4>Nathan A. Caswell</h4>
-                  <p className="position">Senior Manager</p>
-                </div>
-              </div>
-            </div>
-          </Slider>
-        </div>
       </section>
       {/*====== End Testimonial Section ======*/}
       {/*====== Start Contact Section ======*/}
-      <section className="contact-one p-r z-2">
+      <section className="contact-one p-r z-2" id="contactenos">
         <div className="container-fluid">
           <div className="row no-gutters">
             <div className="col-lg-6">
@@ -728,17 +469,14 @@ const Index = () => {
               >
                 <div className="information-box">
                   <h3>Contáctanos</h3>
-                  <p>
-                    Sit volupta accusantium doloreues laudatiuec totam rem
-                    aperiam eaque abillo inventore verit atiset
-                  </p>
+                 
                   <div className="information-item_one d-flex mb-25">
                     <div className="icon">
                       <i className="flaticon-placeholder" />
                     </div>
                     <div className="info">
                       <span className="sub-title mb-1">Ubicacion</span>
-                      <h5></h5>
+                      <h5>Prolongacion alameda Juan Pablo II</h5>
                     </div>
                   </div>
                   <div className="information-item_one d-flex mb-25">
@@ -759,7 +497,10 @@ const Index = () => {
                     <div className="info">
                       <span className="sub-title mb-1">Numero</span>
                       <h5>
-                        <a href="tel:+0123456789">+503 3333-3333</a>
+                        <a href="tel:+0123456789">+503 2261-0839 <br/>
++503 7039-0934<br/>
++503 7601-5097
+</a>
                       </h5>
                     </div>
                   </div>
