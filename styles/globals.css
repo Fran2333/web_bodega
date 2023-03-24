@@ -18,4 +18,27 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+
+
+.fontsize{
+  font-size: 80px !important;
+}
+
+@media (max-width: 768px) {
+  .fontsize{
+    font-size: 60px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .fontsize{
+    font-size: 40px !important;
+  }
 }

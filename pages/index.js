@@ -27,14 +27,7 @@ const Index = () => {
               <div className="row justify-content-center">
                 <div className="col-lg-10">
                 <div className="hero-content text-center">
-                    <span
-                      className="tag-line"
-                      data-animation="fadeInDown"
-                      data-delay=".4s"
-                    >
-                     Bodeguita san jorge! 
-                    </span>
-                    <h1 data-animation="fadeInUp" data-delay=".5s">
+                    <h1 data-animation="fadeInUp" data-delay=".5s" className="fontsize">
                     El lugar que necesitas para organizar tus espacios!
                     </h1>
                     <div
@@ -63,14 +56,8 @@ const Index = () => {
               <div className="row justify-content-center">
                 <div className="col-lg-10">
                   <div className="hero-content text-center">
-                  <span
-                      className="tag-line"
-                      data-animation="fadeInDown"
-                      data-delay=".4s"
-                    >
-                     Bodeguita san jorge! 
-                    </span>
-                    <h1 data-animation="fadeInUp" data-delay=".5s">
+                 
+                    <h1 data-animation="fadeInUp" data-delay=".5s" className="fontsize">
                     El lugar que necesitas para organizar tus espacios!
                     </h1>
                     <div
@@ -99,14 +86,8 @@ const Index = () => {
               <div className="row justify-content-center">
                 <div className="col-lg-10">
                 <div className="hero-content text-center">
-                <span
-                      className="tag-line"
-                      data-animation="fadeInDown"
-                      data-delay=".4s"
-                    >
-                     Bodeguita san jorge! 
-                    </span>
-                    <h1 data-animation="fadeInUp" data-delay=".5s">
+               
+                    <h1 data-animation="fadeInUp" data-delay=".5s" className="fontsize">
                     El lugar que necesitas para organizar tus espacios!
                     </h1>
                     <div
@@ -135,14 +116,8 @@ const Index = () => {
               <div className="row justify-content-center">
                 <div className="col-lg-10">
                   <div className="hero-content text-center">
-                    <span
-                      className="tag-line"
-                      data-animation="fadeInDown"
-                      data-delay=".4s"
-                    >
-                      Bodeguitas San Jorge
-                    </span>
-                    <h1 data-animation="fadeInUp" data-delay=".5s">
+                    
+                    <h1 data-animation="fadeInUp" data-delay=".5s" className="fontsize">
                      Bienvenido a Bodeguitas San Jorge
                     </h1>
                     <div
@@ -240,17 +215,17 @@ const Index = () => {
       </section>
       {/*====== End About Section ======*/}
       {/*====== Start Service Section ======*/}
-      <section className="service-one dark-black-bg pt-130 pb-125 p-r z-1 ">
-        <div className="container ">
+      <section className="service-one dark-black-bg pt-130 pb-125 p-r z-1 column justify-content-center">
+        <div className="container column justify-content-center ">
           <div className="row justify-content-center">
-            <div className="col-xl-6 col-lg-10">
+            <div className="col-xl-6 col-lg-10 ">
               <div className="section-title section-title-white text-center mb-60 wow fadeInUp">
                 <span className="sub-title">Bodegas</span>
                 <h2>Espacios Bodegas</h2>
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row  justify-content-center">
             <div className="col-xl-3 col-lg-4 col-md-4 col-sm-12">
               <div className="service-box text-center mb-70 wow fadeInUp">
                 <div className="text">

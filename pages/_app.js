@@ -3,7 +3,6 @@ import { Fragment, useEffect, useState } from "react";
 import PreLoader from "../src/layouts/PreLoader";
 import "../styles/globals.css";
 
-
 function MyApp({ Component, pageProps }) {
   const [loader, setLoader] = useState(true);
   useEffect(() => {
@@ -52,7 +51,6 @@ function MyApp({ Component, pageProps }) {
         <link rel="stylesheet" href="assets/css/default.css" />
         {/*====== Style css ======*/}
         <link rel="stylesheet" href="assets/css/style.css" />
-        <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"/>
       </Head>
       {loader && <PreLoader />}
       <Component {...pageProps} />
