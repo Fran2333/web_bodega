@@ -89,7 +89,7 @@ const Header1 = () => (
             <div className="site-branding d-lg-block d-none">
               <Link href="/">
                 <a className="brand-logo">
-                  <img src="assets/images/logo/logo-1.png" alt="Site Logo" />
+                  <img src="assets/images/logo/logo-11.png" alt="Site Logo" />
                 </a>
               </Link>
             </div>

@@ -37,6 +37,11 @@
 /* Base CSS */
 html {
   font-size: 100%;
+overflow-x: hidden !important;
+}
+
+body{
+  overflow-x: hidden !important;
 }
 
 * {
@@ -64,6 +69,12 @@ textarea:focus,
 button:focus {
   text-decoration: none;
   outline: none;
+}
+
+@media (max-width: 576px) {
+.font-sizefon{
+  font-size: 13px;
+}
 }
 
 i,
@@ -421,6 +432,11 @@ button {
 
 .images-bodegas{
  
+  height: 250px;
+}
+
+.images-bodegas1{
+  z-index: 1;
   height: 250px;
 }
 
@@ -1565,6 +1581,7 @@ button {
   max-width: 190px;
   background-color: #12b0a9;
   border-radius: 7px;
+  height: 200px;
 }
 @media (max-width: 1199px) {
   .navigation-three .site-branding .brand-logo {
@@ -3982,6 +3999,7 @@ button {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  z-index: 999;
 }
 .video-popup:after,
 .video-popup:before {
@@ -5403,7 +5421,7 @@ button {
 
 /* Testimonial One */
 .testimonial-one {
-  padding: 310px 0 465px;
+  padding: 210px 0 265px;
 }
 .testimonial-one .container-fluid {
   padding-left: 170px;

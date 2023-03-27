@@ -161,7 +161,7 @@ const Index = () => {
                     
                   </div>
                   <div className="text">
-                    <h5>Seguro basico inlcuido</h5>
+                    <h5>Seguro básico inlcuido</h5>
                   </div>
                 </div>
               </div>
@@ -273,8 +273,9 @@ const Index = () => {
                  
                 }}
               >
+                 
                 <a
-                  href="#"
+                  href="https://youtu.be/ETAo7o_hlf4"
                   className="video-popup"
                 >
                   <i className="fas fa-play" />
@@ -451,7 +452,7 @@ const Index = () => {
                     </div>
                     <div className="info">
                       <span className="sub-title mb-1">Ubicacion</span>
-                      <h5>Prolongacion alameda Juan Pablo II</h5>
+                      <h5  className="font-sizefon"> <a className="font-sizefon">Prolongacion alameda Juan Pablo II</a></h5>
                     </div>
                   </div>
                   <div className="information-item_one d-flex mb-25">
@@ -459,9 +460,9 @@ const Index = () => {
                       <i className="flaticon-email" />
                     </div>
                     <div className="info">
-                      <span className="sub-title mb-1">Email</span>
+                      <span className="sub-title mb-1 " >Email</span>
                       <h5>
-                        <a href="mailto:hotline@gmail.com">info@bodeguitasanjorge.com</a>
+                        <a href="mailto:hotline@gmail.com" className="font-sizefon">info@bodeguitasanjorge.com</a>
                       </h5>
                     </div>
                   </div>
@@ -470,9 +471,9 @@ const Index = () => {
                       <i className="flaticon-phone-call" />
                     </div>
                     <div className="info">
-                      <span className="sub-title mb-1">Numero</span>
+                      <span className="sub-title mb-1 ">Numero</span>
                       <h5>
-                        <a href="tel:+0123456789">+503 2261-0839 <br/>
+                        <a href="tel:+0123456789"  className="font-sizefon">+503 2261-0839 <br/>
 +503 7039-0934<br/>
 +503 7601-5097
 </a>
