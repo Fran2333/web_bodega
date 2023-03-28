@@ -4,13 +4,21 @@ import Layout from "../src/layouts/Layout";
 import {
   heroSliderOne
 } from "../src/sliderProps";
-
+import emailjs from '@emailjs/browser';
 
 
 
 
 
 const Index = () => {
+  const sendEmail = (event) => {
+    event.preventDefault();
+
+    emailjs.sendForm('service_hypf8th','template_6mpewqp',event.target,'4tKf49M7JEk0vEe_K')
+
+
+    event.target.reset();
+  }
   return (
     <Layout header={1}>
       <section className="hero-area-one">
@@ -274,12 +282,9 @@ const Index = () => {
                 }}
               >
                  
-                <a
-                  href="https://youtu.be/ETAo7o_hlf4"
-                  className="video-popup"
-                >
+                 <iframe width="760" height="515" src="https://www.youtube.com/embed/ETAo7o_hlf4?mute=1&controls=0&modestbranding=1&loop&playlist=ETAo7o_hlf4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                   <i className="fas fa-play" />
-                </a>
+                
               </div>
             </div>
           </div>
@@ -399,7 +404,7 @@ const Index = () => {
                     <h2>¿Necesitas una bodega?</h2>
                   </div>
                   <div className="contact-form">
-                    <form onSubmit={(e) => e.preventDefault()}>
+                    <form onSubmit={sendEmail}>
                       <div className="form_group">
                         <input
                           type="text"
@@ -427,7 +432,7 @@ const Index = () => {
                         />
                       </div>
                       <div className="form_group">
-                        <button className="main-btn yellow-bg">
+                        <button className="main-btn yellow-bg" >
                           Enviar
                         </button>
                       </div>
